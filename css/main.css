@@ -1,6 +1,19 @@
 @charset "UTF-8";
+@import url('html5doctor-reset.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab|VT323');
 /* CSS Document */
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'VT323', monospace;
+*/
+
+body {
+	background-color: #000;
+}
 
 h1 {
-	color: mediumorchid;
+	color: #0F0;
+	color: rgb(0, 255, 0);
+	font-family: 'VT323', monospace;
 }
