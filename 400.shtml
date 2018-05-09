@@ -2,6 +2,7 @@
 <HTML><HEAD>
 <TITLE>400 Bad Request</TITLE>
 </HEAD><BODY>
+<img src="images/400.jpeg" alt="http cat" />
 <H1>Bad Request</H1>
 There was an error in your request.
 <HR>

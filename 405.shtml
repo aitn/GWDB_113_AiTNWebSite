@@ -4,9 +4,9 @@
 <TITLE>404 Not Found</TITLE>
 </HEAD>
 <BODY>
-	<img src="images/404.jpeg" alt="kitteh not found" />
-	<H1>404 Not Found</H1>
-	<p>The requested URL <!--#echo var="REQUEST_URI" --> was not found on this server.</p>
+	<img src="images/405.jpeg" alt="Don\'t do it dubya!" />
+	<H1>405 Method Not Allowed</H1>
+	<p>The requested Method <!--#echo var="REQUEST_URI" --> was not found on this server, man.</p>
 	<HR>
 	<I><!--#echo var="HTTP_HOST" --></I>
 </BODY>

@@ -4,8 +4,8 @@
 	<TITLE>500 Internal Server Error</TITLE>
 </HEAD>
 <BODY>
-	<H1>500 Internal Server Error</H1>
 	<img src="images/500.jpeg" alt="cute kitten in a server case being cute" />
+	<H1>500 Internal Server Error</H1>
 	<p>The server encountered an internal error or misconfiguration and was unable to complete your request</p>
 	<HR>
 	<I><!--#echo var="HTTP_HOST" --></I>

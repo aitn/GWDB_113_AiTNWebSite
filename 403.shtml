@@ -2,6 +2,7 @@
 <HTML><HEAD>
 <TITLE>403 Forbidden</TITLE>
 </HEAD><BODY>
+<img src="images/403.jpeg" alt="http cat" />
 <H1>Forbidden</H1>
 You don't have permission to access <!--#echo var="REQUEST_URI" --> on this server.
 <HR>

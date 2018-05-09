@@ -1,61 +1,16 @@
 <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
 <HTML>
 <HEAD>
-<TITLE>404 Not Found</TITLE>
+	<TITLE>500 Internal Server Error</TITLE>
 </HEAD>
 <BODY>
-	<img src="images/404.jpeg" alt="kitteh not found" />
-	<H1>404 Not Found</H1>
-	<p>The requested URL <!--#echo var="REQUEST_URI" --> was not found on this server.</p>
+	<img src="images/599.jpeg" alt="no fluffeh! quit ze chewinz!" />
+	<H1>599 Network Connect Timeout Error</H1>
+	<p>The server encountered an internal error or misconfiguration and was unable to complete your request</p>
 	<HR>
 	<I><!--#echo var="HTTP_HOST" --></I>
 </BODY>
 </HTML>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
