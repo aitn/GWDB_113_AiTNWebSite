@@ -1,0 +1,26 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab|VT323');
+@font-face {
+	font-family: '04B30';
+	src: url('../fonts/04B_30__.TTF') format('truetype');
+}
+
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'VT323', monospace;
+*/
+
+h1 {
+	color: #0F0;
+	color: rgb(0, 255, 0);
+	font-family: '04B30';
+	
+}
+
+nav a {
+	color: #0F0;
+	font-family: 'VT323', monospace;
+	text-decoration: none;
+	line-height: 1.5em;
+}
