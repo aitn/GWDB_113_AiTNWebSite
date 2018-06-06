@@ -1,5 +1,11 @@
 /* CSS Document */
 
+nav {
+	width: 100%;
+
+	float: left;
+}
+
 nav a {
 	
 }
@@ -23,8 +29,8 @@ nav a {
 
 /* Add an active class to highlight the current page */
 .active {
-    background-color: #4caf50;
-    color: #FFF;
+    background-color: #0f0;
+    color: #000;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -36,8 +42,9 @@ nav a {
  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
 
-    .topnav a:not(:first-child) {display: none;}
-    .topnav a.icon {
+    .topnav li:not(:first-child) {display: none;}
+	.topnav li:last-child {display: block;}
+    .topnav li a.icon {
         float: right;
         display: block;
     }
@@ -56,4 +63,7 @@ nav a {
         display: block;
         text-align: left;
     }
+	.topnav.responsive li {
+		display: block;
+	}
 } 
