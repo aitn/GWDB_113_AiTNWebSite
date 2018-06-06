@@ -6,7 +6,9 @@
 		The Ai Website of Joel R. Norris
 	</title>
 	<link href="css/main.css" rel="stylesheet" type="text/css">
-
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/nav.js" type="text/javascript"></script>
 
 </head>
 <body>
@@ -16,7 +18,7 @@
 	</header>
 	
 	<nav>
-		<ul>
+		<ul class="topnav" id="main-top-nav">
 			<li>
 				<a class="active" href="index.html">Home</a>
 			</li>
@@ -29,6 +31,11 @@
 			<li>
 				<a href="projects.html">Projects</a>
 			</li>
+            <li>
+                <a href="javascript:void(0);" class="icon" onclick="navFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </li>
 		</ul>
 	</nav>
 		
