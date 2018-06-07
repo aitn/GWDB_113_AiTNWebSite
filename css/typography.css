@@ -38,3 +38,9 @@ nav a.active {
 ol, p {
 	color: #fff;
 }
+
+footer p {
+	text-align: center;
+	font-size: 8px;
+	padding: 20px;
+}
